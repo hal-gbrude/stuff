@@ -1,0 +1,45 @@
+int hight = 0;
+int with = 0;
+
+
+void setup(){
+size(1800,1400);
+}
+void draw() {
+background(15, 46, 106);
+//int h=12;
+
+if(mouseX > 500) {
+  background(22,106,15);
+  // origanal project 
+if (keyPressed) {
+    if (key == 's' || key == 'S')
+ fill(0,0,255);
+ rect(500,500,300,200);
+
+if (keyPressed) {
+    if (key == 'd' || key == 'D')
+fill(#F00A0A);
+ellipse(mouseY,mouseX,random(50),40);
+// ellipse that changes shape
+}
+}
+}
+if(mouseX < 500) {
+  
+  fill(random(50),random(150),random(100));
+  ellipse(random(1800),random(1400),50,60);
+}
+if(keyPressed) {
+    if (key == 'a' || key == 'A')
+ fill(random(255),random(255),random(255));
+ // this also makes random colors
+}
+ if(keyPressed) {
+    if (key == 'f' || key == 'F')
+ fill(0,random(255),0);
+ rect(mouseX,mouseY,200,200);
+//this make a rect that flashes diferent colors
+
+}
+}
